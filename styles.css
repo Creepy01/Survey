@@ -9,9 +9,7 @@ body{
 fieldset{
     border: none;
 }
-legend{
-    font-weight: bold;
-}
+
 h1,p{
     text-align: center;
     margin: 1em auto;
@@ -42,9 +40,6 @@ input,select,textarea{
     color: #f1f1f1;
     margin: 10px 0 0 0;
     border-radius : 5px;
-  }
-  #comment{
-    font-weight: bold;
   }
   input[type="submit"]{
     margin: 1em auto;
