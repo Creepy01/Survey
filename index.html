@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Freecodecamp</title>
+</head>
+<body>
+    <h1 id="title">Survey for Freecodecampers</h1>
+    <p id="description">We would love having your insights</p>
+    <form action="" id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Full name: <input type="text" name="" id="name" placeholder="First name Last name" required></label>
+            <label id="email-label" for="email" >Email: <input type="email" id="email" placeholder="someone@example.com" required></label>
+            <label id="number-label" for="number">Number: <input type="number" min="0" max="9999999" id="number" placeholder="65461484"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Male"><input type="radio" id="Male" class="inline" name="gender" value="name" checked> Male</label>
+            <label for="Female"><input type="radio" id="Female" class="inline" name="gender" value="F"> Female</label></fieldset>
+        <fieldset>
+            <legend>Matrimonial Situation</legend>
+            <label for="dropdown">
+                <select name="" id="dropdown">
+                    <option value="">Select</option>
+                    <option value="1">Married</option>
+                    <option value="2">Single</option>
+                    <option value="3">Divorced</option>
+                    <option value="4">Widowed</option>
+                </select>
+            </label> 
+        </fieldset>
+        <fieldset>
+            <label for="comments" id="comment">Any additional comments<textarea id="comment" name="comment" rows="8" cols="30"></textarea></label>
+        </fieldset>
+        <label for="approval"><input type="checkbox" id="approval" class="inline" value="A">I agree to share my responses with Freecodecamp</label>
+        <label for="approval"><input type="checkbox" id="approval" class="inline" value="A+">I agree to receive newsletters from Freecodecamp</label>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
